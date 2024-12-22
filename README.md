@@ -24,6 +24,7 @@ A simple multi-client chat server built using Python's `socket` and `threading` 
    git clone https://github.com/Abdelqoddous01/chat-server.git
    cd chat-server
    python server.py
+   ```
 
 ## How to Connect
 
@@ -36,8 +37,9 @@ Open your terminal or command prompt and run the following command:
 ```bash
 telnet <IP_ADDRESS> <PORT>
 
-##Exmple:
+###Exemple:
 telnet 127.0.0.1 12345
+```
 
 ### 2. Using Client code:
 You can generate a simple code for client and run it while the server is running.
