@@ -1,4 +1,4 @@
-# Multi-Client Chat Server
+# Multi-Client Chat Server ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
 A simple multi-client chat server built using Python's `socket` and `threading` modules. This server allows multiple clients to connect concurrently, communicate with each other, and share messages. Each client connects with a unique username, and the server manages clients and their interactions using threads.
 
@@ -23,3 +23,24 @@ A simple multi-client chat server built using Python's `socket` and `threading` 
    ```bash
    git clone https://github.com/Abdelqoddous01/chat-server.git
    cd chat-server
+   python server.py
+
+## How to Connect
+
+To connect to the chat server, you can use the `telnet` command. 
+
+### 1. Using Telnet:
+
+Open your terminal or command prompt and run the following command:
+
+```bash
+telnet <IP_ADDRESS> <PORT>
+
+##Exmple:
+telnet 127.0.0.1 12345
+
+### 2. Using Client code:
+You can generate a simple code for client and run it while the server is running.
+
+
+   
